@@ -1,0 +1,77 @@
+.country-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.country-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.country-list-items {
+  width: 20%;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+.country-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.country-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.moon-icon {
+  width: 11px;
+  margin: 0px 4px 3px 0px;
+  height: auto;
+}
+
+.top-items {
+  width: 100%;
+  margin-left: 35%;
+  margin-top: 35px;
+}
+
+.country-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.country-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.country-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
