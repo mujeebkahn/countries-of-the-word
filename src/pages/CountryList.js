@@ -111,7 +111,7 @@ function CountryList({ isDarkMode }) {
                     <h3>
                       {country.name.common ? country.name.common : country.name}
                     </h3>
-                    <p>Population: {country.population}</p>
+                    <p>Population: {country.population.toLocaleString()}</p>
                     <p>Region: {country.region}</p>
                     <p>Capital: {country.capital}</p>
                   </div>
