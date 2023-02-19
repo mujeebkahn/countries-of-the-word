@@ -15,15 +15,19 @@ function App() {
   };
   return (
     <>
-      <Navbar toggleDarkMode={toggleDarkMode} />
+      <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
       <Router>
         <div className={`App ${isDarkMode ? "dark" : "light"}`}>
           {/* <div className="app"> */}
           <Routes>
-            <Route exact path="/" element={<CountryList />} />
+            <Route
+              exact
+              path="/"
+              element={<CountryList isDarkMode={isDarkMode} />}
+            />
             <Route
               path="/countries/:countryName"
-              element={<CountryDetails />}
+              element={<CountryDetails isDarkMode={isDarkMode} />}
             />
           </Routes>
         </div>

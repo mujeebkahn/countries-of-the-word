@@ -26,10 +26,9 @@
 .country-list-items {
   width: 20%;
   box-sizing: border-box;
-  padding: 20px;
   margin: 20px;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #2b3743;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease;
@@ -53,7 +52,7 @@
 
 .top-items {
   width: 100%;
-  margin-left: 35%;
+  margin-left: 11%;
   margin-top: 35px;
 }
 
@@ -74,4 +73,9 @@
   font-size: 16px;
   color: #666;
   margin-bottom: 5px;
+}
+
+.arrow-left {
+  width: 17px;
+  margin: 0px 20px 0px 5px;
 }
